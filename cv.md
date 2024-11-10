@@ -87,3 +87,15 @@ print("Coefficients:", coeffs)
 
 - **Specialist in Chemical Technologies (2014)**
   Sevastopol National University of Nuclear Energy and Industry Sevastopol, Ukraine
+
+## Courses
+
+- Courses on [deeplearning.ai](https://www.deeplearning.ai/)
+- Frontend courses on [RSSchool](https://rs.school/) and Udemy.
+
+## Languages
+
+- **English**
+- **Russian**
+- **Ukranian**
+- **German (in process of learning)**
