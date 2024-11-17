@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yevhen Ryhus CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="centered-block">
+      <header>
+        <nav>
+          <ul>
+            <li><a href="#contact-info">Contact Info</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#technical-skills">Technical Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#my-projects">My Projects</a></li>
+          </ul>
+        </nav>
+        <h1>Yevhen Ryhus</h1>
+        <img src="img/IMG_1380.jpeg" alt="My Photo" width="150" height="150">
+      </header>
+
+      <main>
+        <section id="contact-info">
+          <h2>Contact Info</h2>
+          <ul>
+            <li>
+              <a href="mailto:ryhusyevhen@gmail.com">ryhusyevhen@gmail.com</a>
+            </li>
+            <li><a href="https://linkedin.com/in/ryyevhen">LinkedIn</a></li>
+            <li><a href="https://github.com/Ryhus/">GitHub</a></li>
+            <li><b>Discord:</b> Evgeniy (@ryhus)</li>
+          </ul>
+        </section>
+
+        <section id="about-me">
+          <h2>About me</h2>
+          <p>
+            I am a Data Scientist with almost 5 years of experience in Insurance
+            and Banking, primarily working on clients segmentation tasks,scoring
+            systems, analyzing data. I am interested in NLP, recommendation
+            systems and computer vision. Now I am exploring softwere engeeniring
+            and web development
+          </p>
+        </section>
+
+        <section id="technical-skills">
+          <h2>Technical Skills</h2>
+          <h3>Data Science:</h3>
+          <ul>
+            <li><b>Languages:</b> Python, SQL, R</li>
+            <li>
+              <b>Frameworks:</b> Pytorch, Tensorflow, Keras, Transformers,
+              Scikit-learn, Matplotlib, NumPy, Pandas, Airflow
+            </li>
+            <li><b>Tools &amp; Technologies:</b> SAS, AWS, Tableau, Snowflake</li>
+          </ul>
+
+          <h3>Web development:</h3>
+          <ul>
+            <li><b>Languages:</b> Python, HTML, CSS, JavaScript, TypeScript</li>
+            <li><b>Frameworks:</b> Python Fast API, ReactJs</li>
+            <li><b>Tools &amp; Technologies:</b> Git, Jira, Figma</li>
+          </ul>
+        </section>
+
+        <section id="code-examples">
+          <h2>Code Examples:</h2>
+          <h3>Linear regression in one line of code (Normal Equation):</h3>
+          <pre><code>
+        import numpy as np
+        X = np.array([[1, 2], [2, 3], [3, 4], [4, 5]])
+        y = np.array([5, 7, 9, 11])
+        X = np.c_[np.ones(X.shape[0]), X]
+
+        coeffs = np.linalg.inv(X.T.dot(X)).dot(X.T).dot(y)
+
+        </code></pre>
+        </section>
+
+        <section id="experience">
+          <h2>Experience:</h2>
+          <h3>PLATA, MX Credit Systems (Ex Tinkoff Bank in Mexico)</h3>
+          <b>Role:</b> Collection Risk Analyst | <b>Period:</b> September 2023 –
+          June 2024
+          <ul>
+            <li>
+              Worked with clients in delinquency, analyzed client data, created
+              and maintained Tableau dashboards for key collection metrics such
+              as cure rate (percentage of clients who paid off delinquency) and
+              number of clients in delinquency
+            </li>
+            <li>
+              Collaborated with collection team to develop dashboards for
+              monitoring collection metrics related to client contact rates with
+              collection agents and created a motivation system for collection
+              agents
+            </li>
+            <li>
+              Conducted A/B tests with the team to explore new ideas aimed at
+              improving the main collection metric—cure rate
+            </li>
+            <li>
+              Maintained, and monitored automated collection messaging campaigns
+            </li>
+            <li>Created and maintained data marts using SQL and Snowflake</li>
+            <li>Analyzed voice data to detect flaws in communication with clients</li>
+          </ul>
+
+          <h3>IPJSC Ingosstrakh, Moscow</h3>
+          <b>Role:</b> Data Scientist | <b>Period:</b> January 2019 - September
+          2022
+
+          <ul>
+            <li>
+              Developed three distinct scoring models for different segments in
+              the auto-insurance market using machine learning methodologies.
+              These models contributed to a significant reduction in annual net
+              losses, achieving a reduction of 12% - 25% in their respective
+              segments
+            </li>
+            <li>
+              Spearheaded a text analysis project focused on extracting relevant
+              information from court cases in the auto-insurance industry, with
+              a specific emphasis on identifying fraudulent cases. Leveraged
+              natural language processing techniques and machine learning
+              algorithms to automate the process, improving efficiency and
+              accuracy in detecting fraudulent activities
+            </li>
+            <li>
+              Worked on an experimental project called ”Early Prolongation”,
+              aimed at offering clients contract extensions with discounts to
+              reduce churn among high-value customers. The project resulted in a
+              medium reduction in customer churn from ”good clients” segment
+            </li>
+            <li>
+              Have been developing data marts and implemented feature
+              engineering techniques to prepare datasets for machine learning
+              modeling. This enabled the seamless integration of data into
+              various ML models and enhanced predictive accuracy and performance
+            </li>
+            <li>
+              Developed and maintained interactive dashboards for the retail
+              department utilizing SQL and SAS Visual Analytics (SAS VA). These
+              dashboards allowed stakeholders to visualize and analyze key
+              performance indicators
+            </li>
+            <li>
+              Conducted analysis for the retail department upon their request,
+              providing valuable insights and recommendations to improve
+              business operations and optimize sales strategies
+            </li>
+          </ul>
+        </section>
+
+        <section id="education">
+          <h2>Education:</h2>
+          <ul>
+            <li>
+              <b>Master in Finance, Financial Engineering (2020)</b> National
+              Research University Higher School of Economics Moscow, Russia
+            </li>
+            <li>
+              <b>Specialist in Chemical Technologies (2014)</b> Sevastopol
+              National University of Nuclear Energy and Industry Sevastopol,
+              Ukraine
+            </li>
+          </ul>
+        </section>
+
+        <section id="courses">
+          <h2>Courses:</h2>
+          <ul>
+            <li>
+              Courses on
+              <a href="https://www.deeplearning.ai/">deeplearning.ai</a>
+            </li>
+            <li>
+              Frontend courses on <a href="https://rs.school/">RSSchool</a> and
+              Udemy
+            </li>
+          </ul>
+        </section>
+
+        <section id="my-projects">
+          <h2>My Projects</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/Ryhus/rsschool-cv">RSSchool CV</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id="languages">
+          <h2>Languages:</h2>
+          <ul>
+            <li>English (C1)</li>
+            <li>Russian (Native)</li>
+            <li>Ukranian (Native)</li>
+            <li>German (A1)</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <ul>
+          <li>2024</li>
+          <li>
+            <a href="https://github.com/Ryhus" target="_blank"
+              ><img src="img/github.png" alt="github logo"
+            ></a>
+          </li>
+          <li>
+            <a href="https://rs.school" target="_blank">
+              <img src="img/rs-school-logo.svg" alt="RSSchool Logo">
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
